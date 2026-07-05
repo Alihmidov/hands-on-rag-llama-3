@@ -1,6 +1,12 @@
-.venv
-.git
-__pycache__
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
 .env
+
 chroma_db/
 ollama_data/
+
+notebooks/
+data/raw/
+data/processed/
