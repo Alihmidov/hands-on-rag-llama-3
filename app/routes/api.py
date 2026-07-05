@@ -13,5 +13,4 @@ def ingest(file_name: str):
 @router.post("/chat")
 def chat(request: ChatRequest):
 
-    answer = ask_bot(request.query)
-    return {"answer": answer}
+    return {"answer": ask_bot(request.query)}
