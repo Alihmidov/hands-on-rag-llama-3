@@ -9,6 +9,6 @@ def retrieve_context(query: str):
     )
     
     res = vectorstore.similarity_search(query, k=3)
-    context = "/n/n".join([chunk.page_context for chunk in res])
+    context = "\n\n".join([chunk.page_context for chunk in res])
     
     return context

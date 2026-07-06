@@ -26,4 +26,4 @@ def ingest_document(file_name: str):
         persist_directory = settings.CHROMA_PATH
     )
     
-    return "Successfully ingested {len(chunks)} chunks from {file_name} into vector store."
+    return f"Successfully ingested {len(chunks)} chunks from {file_name} into vector store."
