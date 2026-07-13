@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="RAG Bot", page_icon="🤖")
-st.title("🤖 DataScience RAG Bot")
-st.caption("Ask me anything about [Hands-On Machine Learning] by Aurélien Géron — answers are generated using retrieval-augmented generation (RAG).")
+st.set_page_config(page_title="PROGIT RAG Bot", page_icon="🤖")
+st.title("🤖 PROGIT RAG Bot")
+st.caption("Ask me anything about [Pro Git] — answers are generated using retrieval-augmented generation (RAG).")
 
 API_URL = "http://127.0.0.1:8000/chat"
 
